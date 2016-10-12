@@ -372,4 +372,22 @@
 	<message key="common.notified">Varslet</message>
 	<message key="grid.action.downloadFile">Last ned denne filen</message>
 	<message key="common.acknowledged">Anerkjent</message>
+	<message key="common.error">Feil</message>
+	<message key="common.metric">Mål</message>
+	<message key="common.count">Opptelling</message>
+	<message key="defaultMetric.title">Standard mål</message>
+	<message key="defaultMetric.availableMetrics">Tilgjengelige mål</message>
+	<message key="navigation.publicMenu">Åpen meny</message>
+	<message key="search.activeFilters">Avanserte filtre</message>
+	<message key="search.advancedSearchMore">Flere søkemuligheter (klikk for å vise)</message>
+	<message key="search.advancedSearchLess">Flere søkemuligheter (klikk for å gjemme)</message>
+	<message key="search.cli.rebuildIndex.clearingIndex">Tøm indeks</message>
+	<message key="search.cli.rebuildIndex.done">ferdig</message>
+	<message key="search.cli.rebuildIndex.error">feil</message>
+	<message key="search.cli.rebuildIndex.indexing">Indekserer "{$journalName}"</message>
+	<message key="search.cli.rebuildIndex.indexingByJournalNotSupported">Denne søkeimplementasjonen tillater ikke reindeksering av enkelttidskrift</message>
+	<message key="search.cli.rebuildIndex.result">{$numIndexed} artikler indeksert</message>
+	<message key="search.cli.rebuildIndex.unknownJournal">Registrert tidsskriftsti "{$journalPath}" gjenkjennes ikke.</message>
+	<message key="search.deleteFilter">Slett</message>
+	<message key="search.indexTermsLong">Alle indeksterm felt</message>
 </locale>

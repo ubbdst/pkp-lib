@@ -214,4 +214,33 @@
 	<p>For å benytte dette filteret kan du bruke din system-konto hos CrossRef, eller registrere en gyldig e-postadresse hos CrossRef <a href="http://www.crossref.org/requestaccount/" target="_blank">her</a>.</p>]]></message>
 	<message key="manager.setup.filter.pleaseSelect">Vennligst velg...</message>
 	<message key="plugins.categories.metadata">Programutvidelser for metadata</message>
+	<message key="manager.reviewerSearch.interests">Interesser fagfellevurdering</message>
+	<message key="manager.reviewerSearch.form.instructions">Bruk skjemaet nedenfor for å sette maksimumsverdier for termene du ønsker å søke frem. Skjemaet er forhåndsutfylt med kalkulerte gjennomsnittsverdier for de valgte feltene.</message>
+	<message key="manager.reviewerSearch.form.interests.instructions">Registrer fagfellevurderingsinteresser. Separer med komma.</message>
+	<message key="manager.setup.filter.lookup.grid.description.pubMed"><![CDATA[<p>Dette filteret koples til PubMed's <a href="http://www.ncbi.nlm.nih.gov/gquery/gquery.fcgi" target="_blank">Entrez</a> metasøketjeneste.</p>
+		<p>En registeringsepost skal ikke være nødvendig, men kan være en løsning dersom du får oppkoplingsproblemer. Se <a href="http://www.be-md.ncbi.nlm.nih.gov/bookshelf/br.fcgi?book=helpeutils&part=chapter2#chapter2.Usage_Guidelines_and_Requiremen" target="_blank">"Usage Guidelines and Requirements"</a> i Entrez dokumentasjonen (Engelsk) for mer informasjon.</p>]]></message>
+	<message key="manager.setup.filter.lookup.grid.description.worldCat"><![CDATA[<p>Dette filteret koples til OCLC søketjenester <a href="http://www.worldcat.org/affiliate/webservices/xisbn/app.jsp" target="_blank">xISBN</a> og <a href="http://www.worldcat.org/" target="_blank">Worldcat</a> (valgfritt).</p>     <p>Hvis du har en Worldcat <a href="http://www.worldcat.org/devnet/wiki/SearchAPIWhoCanUse" target="_blank">API nøkkel</a> kan du kople til Worldcat søk ved å fylle denne inn i feltet nedenfor.</p>]]></message>
+	<message key="manager.setup.filter.lookup.grid.loadMessage">Vennligst vent til konfigureringstabellen for referansedatabaser er ferdig lastet...</message>
+	<message key="manager.setup.filter.lookup.grid.title">Koplinger til referansedatabaser</message>
+	<message key="manager.setup.filter.noMoreTemplates">Alle tilgjengelige transformasjoner er allerede lagt til. Vennligst klikk 'Kanseller' for å gå tilbake til oppsett.</message>
+	<message key="manager.setup.filter.parser.grid.descriptionConfirm">Du har valgt å legge til {$filterDisplayName} parser. Klikk 'OK' for å bekrefte.</message>
+	<message key="manager.setup.filter.parser.grid.descriptionTemplate">Velg en referanseparser.</message>
+	<message key="manager.setup.filter.parser.grid.description.freeCite"><![CDATA[<p>Dette uthentingsfilteret koples til <a href="http://freecite.library.brown.edu/" target="_blank">FreeCite</a> web tjeneste.</p>]]></message>
+	<message key="manager.setup.filter.parser.grid.description.paraCite"><![CDATA[<p>Dette uthentingsfilteret bruker Perl modulen <a href="http://paracite.eprints.org/developers/" target="_blank">ParaTools</a> for å få <a href="http://paracite.eprints.org" target="_blank">ParaCite</a> referanseparsing funksjonalitet. For å få dette til må du ha Perl installert, sammen med <a href="http://search.cpan.org/~mjewell/Biblio-Citation-Parser-1.10/" target="_blank">Biblio::Citation::Parser</a> og <a href="http://search.cpan.org/~sburke/Text-Unidecode-0.04/" target="_blank">Text::Unidecode</a> CPAN moduler. Du må også konfigurere <tt>perl</tt> direktivet i konfigurasjonsfilen din. Dette direktivet finner du i "External Commands" delen av <tt>config.inc.php</tt>.</p> 
+		<p>Du kan også velge hvilken parsermodul ParaTools skal bruke. Du kan velge mellom standard, <a href="http://search.cpan.org/~mjewell/Biblio-Citation-Parser-1.10/lib/Biblio/Citation/Parser/Jiao.pm" target="_blank">Jiao</a>, og <a href="http://search.cpan.org/~mjewell/Biblio-Citation-Parser-1.10/lib/Biblio/Citation/Parser/Citebase.pm" target="_blank">Citebase</a> parsermoduler.</p>]]></message>
+	<message key="manager.setup.filter.parser.grid.description.parsCit"><![CDATA[<p>Dette uthentingsfilteret koples til <a href="http://aye.comp.nus.edu.sg/parsCit/" target="_blank">ParsCit</a> web tjeneste.</p>]]></message>
+	<message key="manager.setup.filter.parser.grid.description.regEx">RexEx ekstrasjonsfilter bruker en rekke regulære uttrykk for å parse referanser.</message>
+	<message key="manager.setup.filter.parser.grid.loadMessage">Vennligst vent til konfigureringstabellen for referanseparsere er ferdig lastet...</message>
+	<message key="manager.setup.filter.parser.grid.title">Tjenester for uthenting av siteringer</message>
+	<message key="manager.setup.layout.blockManagement">Administrasjon av sidespalte</message>
+	<message key="manager.setup.metaCitationsDescription">Aktiver sjekkboksen for å skru på sitering og referanseredigering. Forfattere vil da kunne inkludere ubearbeidete referanser sammen med sin artikkelinnlevering. Redaktør får tilgang til redigeringsverktøy for å kontrollere ubearbeidete referanser mot eksterne databaser som for eksempel WorldCat, ISBNdb, PubMed m.fl. Godkjente referanser kan eksporteres til endelig versjon av artikkelen.</message>
+	<message key="manager.statistics.city">By</message>
+	<message key="manager.statistics.region">Region</message>
+	<message key="plugins.categories.metadata.description">Programtillegg for metadata muliggjør implementasjon av flere metadatastandarder.</message>
+	<message key="plugins.categories.citationLookup">Programutvidelse for oppkopling til referansedatabaser</message>
+	<message key="plugins.categories.citationLookup.description">Programutvidelse for oppkopling til referansedatabaser brukes til å slå opp bibliografiske referanser, f.eks. under redigering av referanser.</message>
+	<message key="plugins.categories.citationOutput">Programutvidelse for referanseoutput</message>
+	<message key="plugins.categories.citationOutput.description">Programutvidelse for referanseoutput implementerer referansestiler. Dette verktøyet erstatter programutvidelser for siteringsformater.</message>
+	<message key="plugins.categories.citationParser">Programutvidelse for uthenting av referanser</message>
+	<message key="plugins.categories.citationParser.description">Programutvidelse for uthenting av referanser henter ut feltvise data fra ubearbeidete siteringer (f.eks. forfatter, tittel. etc.).</message>
 </locale>

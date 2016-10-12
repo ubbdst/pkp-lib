@@ -273,4 +273,115 @@
 	<message key="metadata.property.validationMessage.series">Vennligst oppgi en relevant serie</message>
 	<message key="metadata.property.displayName.supplement">Tillegg</message>
 	<message key="metadata.property.validationMessage.supplement">Vennligst legg til et relevant tillegg</message>
+	<message key="author.submit.submissionCitations">Inkluder en formatert liste over referanser for artikkelen du er i ferd med å sende inn. Individuelle referanser separeres ved hjelp av en blank linje.</message>
+	<message key="metadata.filters.crossref.settings.email.displayName">CrossRef epost for registering</message>
+	<message key="metadata.filters.crossref.settings.email.validationMessage">Legg til en gyldig CrossRef registreringsepost. Du kan registrere eposten din gratis på CrossRef nettsiden.</message>
+	<message key="metadata.filters.pubmed.settings.email.displayName">PubMed epost for registering</message>
+	<message key="metadata.filters.pubmed.settings.email.validationMessage">Legg inn en gyldig PubMed  epost for registrering hvis du har en.</message>
+	<message key="metadata.filters.worldcat.settings.apiKey.displayName">WorldCat API nøkkel</message>
+	<message key="metadata.filters.worldcat.settings.apiKey.validationMessage">Legg inn en gyldig WorldCat API nøkkel hvis du har en.</message>
+	<message key="metadata.filters.paracite.settings.citationModule.displayName">Siteringsmodulen</message>
+	<message key="metadata.filters.paracite.settings.citationModule.validationMessage">Velg en av de oppgitte siteringsmodulene.</message>
+	<message key="metadata.filters.settings.isOptional.displayName">Ikke bruk som default (fremdeles tilgjengelig for redaktøren)</message>
+	<message key="metadata.filters.settings.isOptional.validationMessage">Systemfeil. En ugyldig verdi er registrert for 'valgfritt filter' innstillingen. Vennligst rapporter denne feilen.</message>
+	<message key="metadata.property.displayName.access-date">Tilgangsdato</message>
+	<message key="metadata.property.validationMessage.access-date">Legg inn gyldig tilgangsdato (format: ÅÅÅÅ-MM-DD)</message>
+	<message key="metadata.property.displayName.season">Sesong</message>
+	<message key="metadata.property.validationMessage.season">Legg inn gyldig sesongidentifikator</message>
+	<message key="metadata.property.displayName.publisher-id">Tilpasset ID for publikasjonen</message>
+	<message key="metadata.property.validationMessage.publisher-id">Legg inn gyldig tilpasset ID for publikasjonen</message>
+	<message key="metadata.property.displayName.coden">CODEN</message>
+	<message key="metadata.property.validationMessage.coden">Legg inn gyldig CODEN.</message>
+	<message key="metadata.property.displayName.sici">SICI</message>
+	<message key="metadata.property.validationMessage.sici">Legg inn gyldig SICI.</message>
+	<message key="metadata.property.displayName.pmid">PMID</message>
+	<message key="metadata.property.validationMessage.pmid">Legg inn gyldig PMID.</message>
+	<message key="metadata.property.validationMessage.annotation">Legg inn kommentar.</message>
+	<message key="metadata.property.validationMessage.publication-type">Pass på at du alltid velger en publikasjonstype. For øyeblikket støttes bok (for bøker og bokkapitler) og tidsskrift (for tidsskriftartikler). Hvis ikke dette gjøres vil ikke formateringen av referanseoutput fungere ordentlig.</message>
+	<message key="metadata.property.validationMessage.title-type">Pass på at du alltid velger en gyldig titteltype. For øyeblikket støttes 'forkortet', 'oversatt', 'alternativ' og 'standardtittel'.</message>
+	<message key="metadata.property.displayName.partNumber">Nummer på del</message>
+	<message key="metadata.property.validationMessage.partNumber">Legg inn et gyldig nummer på del.</message>
+	<message key="metadata.property.displayName.partName">Navn på del</message>
+	<message key="metadata.property.validationMessage.partName">Legg inn et gyldig nummer for del.</message>
+	<message key="submission.agencies">Organisasjon</message>
+	<message key="submission.citations.editor.details.cannotSelectDefaultForLabel">Du kan ikke omdøpe en feltetikett. Slett feltet dersom du ikke trenger det.</message>
+	<message key="submission.citations.editor.details.citationImprovementResultsActive">Resultater av intern eksp</message>
+	<message key="submission.citations.editor.details.citationImprovementResultsInactive">Resultater av intern ekspertreferansetjeneste (klikk for å åpne)</message>
+	<message key="submission.citations.editor.details.citationServices">Referansestjenester</message>
+	<message key="submission.citations.editor.details.clickToDismissMessage">Klikk på teksten i meldingen for å gå videre.</message>
+	<message key="submission.citations.editor.details.databaseQueryExplanation">Under finner du en liste med referansetjenester konfigurert for ditt tidsskrift. Redaksjonsleder har vurdert hvilke tjenester som er relevante for tidsskriftet og har forhåndsvalgt noen av disse. Du kan også inkludere flere tjenester i spørringen din, eventuelt fjerne tjenester om du ønsker det.</message>
+	<message key="submission.citations.editor.details.editRawCitationDatabaseServices">Velg referansedatabasetjenester:</message>
+	<message key="submission.citations.editor.details.editRawCitationExpertSettingsActive">Ekspertinnstillinger for redigering av referanser (klikk for å lukke)</message>
+	<message key="submission.citations.editor.details.editRawCitationExpertSettingsInactive">Ekspertinnstillinger for redigering av referanser (klikk for å åpne)</message>
+	<message key="submission.citations.editor.details.editRawCitationExtractionServices">Velg tjeneste for å hente ut referanser:</message>
+	<message key="submission.citations.editor.details.editRawCitationFilterValidationError">Systemfeil: Ugyldig filtervalg. Vennligst send en feilmelding.</message>
+	<message key="submission.citations.editor.details.explainImprovementOptions">Hvis du ikke fikk tilfredsstillende resultater så har du ulike muligheter til å forbedre referansen. Det hjelper ofte å redigere viktige felt manuelt (f.eks. tittel og forfatter) for deretter å prøve referansetjenesten igjen. Hvis det ikke hjelper kan du prøve Google Scholar eller spørre forfatteren om flere detaljer.</message>
+	<message key="submission.citations.editor.details.googleScholarExplanation">Hvis en referanse ikke ble funnet i noen av de tilkoplede referansetjenestene kan du prøve å søke i Google Scholar. Dessverre tilbyr ikke Google et felt-basert grensesnitt for dataene som vi kan bruke. Dette betyr at det ikke er mulig å automatisk hente data inn i dette verktøyet. Du må kopiere og lime inn informasjonen manuelt fra resultatsiden i Google og tilbake hit.</message>
+	<message key="submission.citations.editor.details.manualEditing">Manuell redigering</message>
+	<message key="submission.citations.editor.details.messages">Legg merke til (klikk på meldinger for å gå videre)</message>
+	<message key="submission.citations.editor.details.queryCitation">Gjenta spørringen til referansetjenesten</message>
+	<message key="submission.citations.editor.details.pleaseClickOnCitationToStartEditing"><![CDATA[<p>Velkommen til redigeringsprosessen for referanser. Klikk på en referanse i listen til venstre, denne vil åpne seg i dette vinduet og du kan sjekke nøyaktigheten på referanseprosessen. Du vil også kunne sjekke referanser mot ulike databaser definert av redaksjonsleder eller manuelt redigere referanser selv.</p>
+		<h4>Navigasjon i grensesnittet</h4>
+		<p>Klikk på en referanse i listen til venste for å begynne redigeringen.</p>
+		<p>Det lyseblå skillelinjen mellom dette vinduet og kolonnen til venstre er flyttbar. Om du ønsker mer plass til å se referanselisten, eller alternativt mer plass til å redigere en referanse så kan denne flyttes i begge retninger.</p>
+		<p>For å ekspandere vinduet, klikk på <strong>Full skjerm</strong> knappen. For å returnere til normalt grensesnitt, klikk <strong>Skru av full skjerm</strong> knappen.</p>
+		<h4>Legge til og fjerne referanser</h4>
+		<p>Du kan legge til referansr ved å klikke på <strong>Ny referanse</strong> ikonet i hjørnet øverst til høyre på kolonnen med listen over referanser. Referanser kan slettes ved å klikke på det røde <strong>Slett</strong> ikonet til venstre for referansen.</p>
+		<h4>Redigering av referanser</h4>
+		<p>For å redigere en referanse i listen til venstre, klikk på den for å åpne i hovedvinduet. Du vil se den originale referansen slik den kom fra forfatteren fulgt av en versjon generert av referanseverktøyet. Du vil kunne redigere den originale referansen; redigere hele eller deler av den nye referansen; sjekke referansen om igjen mot relevante databaser; spørre Google Scholar; eller spørre forfatteren for mer informasjon om referansen.</p>
+		<p>Når du er ferdig med å redigere en referanse klikk <strong>Lagre og godkjenn</strong> knappen og du vil automatisk få opp neste referanse i lista. På denne måten kan du raskt arbeide deg gjennom en lang liste med referanser. Når alle er godkjent vil du bli automatisk overført til <strong>eksportsiden</strong> for referanser.</p>]]></message>
+	<message key="submission.citations.editor.details.processRawCitationTitle">Endre opprinnelig referanse</message>
+	<message key="submission.citations.editor.details.processRawCitationWarning">Du er i ferd med å endre den opprinnelig referansen. Hvis du gjør det vil alle felt bli erstattet med nygenererte verdier. Manuelle endringer du ev. har gjort vil bli slettet.</message>
+	<message key="submission.citations.editor.details.sourceResultsUseAllExplanation">Klikk for å transportere alle resultatfelt fra denne kilden direkte til din feltliste.</message>
+	<message key="submission.citations.editor.details.sourceResultsUseExplanation">Klikk for å transportere dette resultatfeltet direkte til din feltliste</message>
+	<message key="submission.citations.editor.details.rawCitation">Opprinnelig referansetekst</message>
+	<message key="submission.citations.editor.details.rawCitationRequired">En referansestekst er obligatorisk.</message>
+	<message key="submission.citations.editor.details.unsavedChanges">Referansen inneholder data som ikke er lagret. Klikk "Lagre" knappen for å beholde endringene eller "Kanseller" knappen for å forkaste disse.</message>
+	<message key="submission.citations.editor.export.exportDescription"><![CDATA[<a id="markForExport" href="">Klikk her</a> for å velge all generert output. Deretter kan du kopiere og lime inn i dokumentet ditt.]]></message>
+	<message key="submission.citations.editor.export.filterSelectionDescription">Velg en av følgende eksportmuligheter.</message>
+	<message key="submission.citations.editor.export.filterSelectionError">Du har ikke valgt noen av outputmulighetene.</message>
+	<message key="submission.citations.editor.export.foundUnapprovedCitationsMessage"><![CDATA[<p>Du har ikke godkjent alle referansene. Gå til <strong>Rediger referanser</strong> fanen og sjekk at du har godkjent alle referansene før du prøver å eksportere. Godkjente referanser er merket med en mørkeblå stripe på venstre side.</p>]]></message>
+	<message key="submission.citations.editor.export.noExportOutput">'{$filterName}' output filteret har produsert en feil. Send feilrapport.</message>
+	<message key="submission.citations.editor.export.pleaseSelectXmlFilter">XML output muligheter:</message>
+	<message key="submission.citations.editor.export.pleaseSelectPlaintextFilter">Referansestil output (kun eksperimentell!)</message>
+	<message key="submission.citations.editor.php5Required">For å redigering referanser trenger du XML- og XSL-støtte som kun er tilgjengelig i PHP versjon 5.0.0 og senere. Det ser ut til at din installasjon kjører på en tidligere versjon av PHP. For å bruke referanseveiviseren må du oppgradere.</message>
+	<message key="submission.citations.editor.pleaseAddParserFilter"><![CDATA[Be din redaksjonsleder om å <a href="{$citationSetupUrl}">legge til minst en referanseuthentingstjeneste</a> før du kan bruke referanseveiviseren.]]></message>
+	<message key="submission.citations.editor.pleaseConfigureOutputStyle"><![CDATA[Be redaksjonsleder om å<a href="{$citationSetupUrl}">konfigurere en eksportstil for referanser</a> før du kan bruke referanseveiviseren.]]></message>
+	<message key="submission.citations.editor.pleaseImportCitationsFirst"><![CDATA[<p>Denne artikkelen har ingen referanser.</p><p>Gå til artikkelens <a href="{$articleMetadataUrl}">metadata side</a> og legg til en referanseliste eller legg til referanser manuelt ved hjelp av "legg til objekt" knappen i tekstbehandingsverktøyet.</p>]]></message>
+	<message key="submission.citations.editor.pleaseSetup"><![CDATA[Be redaksjonsleder om å <a href="{$citationSetupUrl}">aktivere redigering av referanser</a>før du kan bruke referanseveiviseren.]]></message>
+	<message key="submission.citations.editor.unprocessedCitations">Referansene i denne artikkelen er fremdeles under behandling på serveren. Den nåværende referanselisten inneholder kun behandlede referanser. Klikk på oppdater knappen for å se referanser som er behandlet i mellomtiden.</message>
+	<message key="submission.citations.filter.invalidMetadata">En feil har oppstått i {$filterName}: Et av data elementene returnert fra datakilden (f.eks. en webtjeneste) er ikke i overensstemmelse med det interne metadata formatet. Datakildens resultater ble derfor forkastet. Rapporter dette som en feil.</message>
+	<message key="submission.citations.filter.noResultFromFilterError">Flere referansetjenester returnerte ikke resultater. Du kan prøve å manuelt redigere feltene i referansen og gjenta spørringen til referansetjenesten for å forbedre resultatene. Hvis dette ikke virker kan det hende at referansen ikke finnes i noen av de tilkoplede databasene.</message>
+	<message key="submission.citations.filter.unsupportedPublicationType">Publikasjonstype støttes ikke eller er manglende. Rediger referansen manuelt og legg til publikasjonstype (tillatte typer er 'bok', 'tidsskrift', 'avhandling' og 'konf-bidr').</message>
+	<message key="submission.citations.filter.webserviceError">{$filterName} web tjeneste kall har returnert en feil når kalt med følgende url: {$webserviceUrl}. Årsaken kan være at web tjenesten er midlertidig utilgjengelig. Du vil fremdeles kunne arbeide med gjenværende tjenester og lagre dine resultater. Du kan også prøve igjen senere. Hvis feilen består kan redaksjonsleder kontaktes for å deaktivere  tjenesten og legge inn en feilmelding.</message>
+	<message key="submission.citations.editor.introduction.introductionMessage"><![CDATA[<h4>Velkommen til referanseveiviseren!</h4>
+	<p>Med denne veiviseren kan du kode forfatters referanser slik at de kan eksporteres enten til NLM 2.3 eller 3.0 XML, eller til tekst. Veiviseren henter ut og identifiserer referanser i opprinnelig form, men det er også mulig å redigere resultatene.</p>
+	<ul>
+		<li><p><strong>Konfigurasjon av veiviseren</strong></p>
+		<p>Referanseveiviseren konfigureres av redaksjonsleder i<a href="{$citationSetupUrl}">Tidsskriftoppsett steg 3.7: Referanseveiviser</a>. Ulike verktøy for uthenting og sjekking av referanser kan legges til, konfigureres og slettes. For mer informasjon kontakt redaksjonsleder.</p></li>
+		<li><p><strong>Navigering i veivisergrensesnittet</strong></p>
+		<p>For å bytte mellom fanene: <strong>Introduksjon</strong>, <strong>Rediger referanser</strong> og <strong>Eksport referanser</strong>, klikk på fanetittelen. For å ekspandere referansegrensesnittet klikk på <strong>Full skjerm</strong> knappen. For å gå tilbake til vanlig grensensitt klikk <strong>Full skjerm av</strong> knappen. For å fjerne introduksjonsfanen fullstendig klikk på knappen under.</p></li>
+		<li><p><strong>Inhente referanser</strong></p>
+		<p>Hvis referanseveiviseren er skrudd på vil forfatter bli bedt om å inkludere en referanseliste som del av artikkelinnleveringen. Referansene vil bli etterspurt som en separat liste, og forfatter vil kunne redigere referanselisten også i etterkant av innlevering ved å redigere innleveringens metadata. Legg merke til at dette vil overskrive andre endringer foretatt på referansene med dette veiviseren.</p></li>
+		<li><p><strong>Referanseredigering</strong></p>
+		<p>Referanseveiviseren vil identifisere og hente ut enkeltreferanser fra forfatters referanseliste. Du kan systematisk sjekke hver uthentede referanse mot en rekke eksterne databaser. Feilaktige referanser kan redigeres, referanser kan godkjennes eller slettes, og nye referanser kan legges til.</p>
+		<p>Alle endelige referanser som er del av en artikkelinnlevering må godkjennes før de kan eksporteres.</p></li>
+		<li><p><strong>Eksport av referanser</strong></p>
+ 		<p>Referanser kan eksporteres til XML eller tekstformat. For øyeblikket kan man eksportere til <a href="http://dtd.nlm.nih.gov/publishing/">NLM Journal Publishing</a> 2.3 og 3.0 <a href="http://www.ncbi.nlm.nih.gov/pmc/pmcdoc/tagging-guidelines/article/tags.html#el-reflist">ref-list XML</a>. Når man velger en av disse kan man hente ut en xml-kodet ref-list snutt som kan kopieres og limes inn i en NLM XML versjon av en artikkel.</p>
+		<p>Muligheter for eksperimentell tekst eksport inkluderer: ABNT, APA, MLA og Vancouver referansestiler. Disse verktøyene kan generere tekst som kan kopieres og limes inn i tekst-baserte versjoner av artikler (for eksempel MS Word eller OpenOffice, Adobe InDesign, etc.). HVer referanse inkluderer en lenke som muliggjør automatiske søk etter referansen i Google Scholar.</p></li>
+	</ul>]]></message>
+	<message key="submission.citations.editor.loadMessage">Vennligst vent mens referanseveiviseren lastes.</message>
+	<message key="submission.citations.filter.webserviceResultTransformationError">En feil har oppstått i {$filterName}: Transformasjonen av XML resultater (f.eks. fra en web tjeneste) inn i felt-baserte metadata feilet. Årsaken er trolig at web tjenesten returnerte ugyldige eller ufullstendige data. Rapporter gjerne dette som en feil.</message>
+	<message key="submission.comments.addReviews">Legg til vurderingene i epost</message>
+	<message key="submission.copyedited">Redigert</message>
+	<message key="submission.layout.galleyRemoteURL">Ekstern URL</message>
+	<message key="submission.layout.galleyRemoteURLValid">Registrer en gyldig URL (inkluder http://)</message>
+	<message key="submission.page.citations">#{$id} Referanser</message>
+	<message key="submission.reviewed">Vurdert</message>
+	<message key="submission.currentAgencies">Bidragsytende organisasjoner</message>
+	<message key="submission.indexingInformation">Indeksinformasjon</message>
+	<message key="submission.createRemote">Opprett ekstern</message>
+	<message key="submission.artworkFileDetails">Trykkeoriginal filinformasjon</message>
+	<message key="submission.form.name">Gi denne filen et meningsbærende navn</message>
+	<message key="submission.supportingAgencies">Bidragsytende organisasjoner</message>
 </locale>

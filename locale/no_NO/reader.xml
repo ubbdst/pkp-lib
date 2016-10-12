@@ -174,4 +174,6 @@
 	<message key="rt.admin.sharing.logoBackgroundLabel">Logobakgrunn</message>
 	<message key="rt.admin.sharing.logoColorLabel">Logofarge</message>
 	<message key="rt.admin.configureSharing">Konfigurer AddThis</message>
+	<message key="rt.admin.settings.viewReviewPolicy">Se policy for fagfellevurdering</message>
+	<message key="rt.captureCite.web">Web</message>
 </locale>

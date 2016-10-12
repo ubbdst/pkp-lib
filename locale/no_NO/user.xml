@@ -119,4 +119,10 @@
 	<message key="user.profile.form.mailingAddressRequired">En postadresse må oppgis.</message>
 	<message key="user.register.form.emailsDoNotMatch">E-postadressene samsvarer ikke med hverandre.</message>
 	<message key="user.suffix">Suffiks</message>
+	<message key="user.authorization.processAuthenticationTokenRequired">Autentiseringskoden for denne prosessen mangler eller er ugyldig</message>
+	<message key="user.authorization.contextRequired">Du kan ikke påkalle denne operasjonen uten en kontekst (trykkeri, tidsskrift, konferanse etc.)</message>
+	<message key="user.authorization.roleBasedAccessDenied">Denne rollen har ikke tilgang til denne prosessen.</message>
+	<message key="user.authorization.userGroupRequired">Du må definere en gyldig brukergruppe for å få tilgang til denne prosessen.</message>
+	<message key="user.authorization.pressManagerRequired">En bruker med en lederrolle relatert til trykking og produksjon (for eksempel trykkeri- eller produksjonsredaktør) må anvises på dette steget før du kan gå videre.</message>
+	<message key="user.interests.description">(Separer interesser ved å trykke enter eller komma tasten)</message>
 </locale>
