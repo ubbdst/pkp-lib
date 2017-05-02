@@ -103,7 +103,6 @@ class PKPTemplateManager extends Smarty {
 
 		$this->assign(array(
 			'defaultCharset' => Config::getVar('i18n', 'client_charset'),
-			'basePath' => $this->_request->getBasePath(),
 			'baseUrl' => $this->_request->getBaseUrl(),
 			'requiresFormRequest' => $this->_request->isPost(),
 			'currentUrl' => $this->_request->getCompleteUrl(),
@@ -548,8 +547,6 @@ class PKPTemplateManager extends Smarty {
 	 * Register all files required by the core JavaScript library
 	 */
 	function registerJSLibrary() {
-
-		$basePath = $this->_request->getBasePath();
 		$baseUrl = $this->_request->getBaseUrl();
 		$localeChecks = array(AppLocale::getLocale(), strtolower(substr(AppLocale::getLocale(), 0, 2)));
 
@@ -566,10 +563,10 @@ class PKPTemplateManager extends Smarty {
 			$baseUrl . '/lib/pkp/js/lib/jquery/plugins/validate/jquery.validate.min.js',
 			$args
 		);
-		$localePath = '/lib/pkp/js/lib/jquery/plugins/validate/localization/messages_';
+		$jqvLocalePath = 'lib/pkp/js/lib/jquery/plugins/validate/localization/messages_';
 		foreach ($localeChecks as $localeCheck) {
-			if (file_exists($basePath . $localePath . $localeCheck .'.js')) {
-				$this->addJavaScript('jqueryValidateLocale', $baseUrl . $localePath . $localeCheck . '.js', $args);
+			if (file_exists($jqvLocalePath . $localeCheck .'.js')) {
+				$this->addJavaScript('jqueryValidateLocale', $baseUrl . '/' . $jqvLocalePath . $localeCheck . '.js', $args);
 			}
 		}
 
@@ -583,10 +580,10 @@ class PKPTemplateManager extends Smarty {
 			$baseUrl . '/lib/pkp/lib/vendor/moxiecode/plupload/js/jquery.ui.plupload/jquery.ui.plupload.js',
 			$args
 		);
-		$localePath = '/lib/pkp/lib/vendor/moxiecode/plupload/js/i18n/';
+		$plLocalePath = 'lib/pkp/lib/vendor/moxiecode/plupload/js/i18n/';
 		foreach ($localeChecks as $localeCheck) {
-			if (file_exists($basePath . $localePath . $localeCheck . '.js')) {
-				$this->addJavaScript('plUploadLocale', $baseUrl . $localePath . $localeCheck . '.js.', $args);
+			if (file_exists($plLocalePath . $localeCheck . '.js')) {
+				$this->addJavaScript('plUploadLocale', $baseUrl . '/' . $plLocalePath . $localeCheck . '.js', $args);
 			}
 		}
 
@@ -595,18 +592,15 @@ class PKPTemplateManager extends Smarty {
 
 		// Load minified file if it exists
 		if (Config::getVar('general', 'enable_minified')) {
-			$path = $basePath . '/js/pkp.min.js';
-			if (file_exists($path)) {
-				$this->addJavaScript(
-					'pkpLib',
-					$path,
-					array(
-						'priority' => STYLE_SEQUENCE_CORE,
-						'contexts' => array('backend', 'frontend')
-					)
-				);
-				return;
-			}
+			$this->addJavaScript(
+				'pkpLib',
+				$baseUrl . '/js/pkp.min.js',
+				array(
+					'priority' => STYLE_SEQUENCE_CORE,
+					'contexts' => array('backend', 'frontend')
+				)
+			);
+			return;
 		}
 
 		// Otherwise retrieve and register all script files
