@@ -751,7 +751,7 @@ abstract class PKPSubmissionService extends PKPBaseEntityPropertyService {
 					$currentUserAssignedRoles[] = (int) $userGroup->getRoleId();
 				}
 			}
-			$stage['currentUserAssignedRoles'] = array_unique($currentUserAssignedRoles);
+			$stage['currentUserAssignedRoles'] = array_values(array_unique($currentUserAssignedRoles));
 
 			// Stage-specific statuses
 			switch ($stageId) {
