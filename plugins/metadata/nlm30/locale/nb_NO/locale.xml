@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.metadata.nlm30.description">Dette programtillegget bidrar til NLM 3.0 skjema og applikasjonadaptere</message>
+	<message key="plugins.metadata.nlm30.citationAdapter.displayName">NLM 3.0 referanseadapter</message>
+	<message key="plugins.metadata.nlm30.citationAdapter.description">Henter/legger metadata ut fra/inn i referanser</message>
+	<message key="plugins.metadata.nlm30.citationParsers.displayName">Tjeneste for å hente ut referanser</message>
+	<message key="plugins.metadata.nlm30.citationParsers.description">Konverter en referanse i ren tekst til NLM 3.0 markering av referanseelementer</message>
+	<message key="plugins.metadata.nlm30.citationLookup.displayName">Tjenester for referansedatabaser</message>
+	<message key="plugins.metadata.nlm30.citationLookup.description">Forbedre NLM 3.0 markering av referanseelementer, f.eks. ved å slå opp referanser i eksterne databaser</message>
+	<message key="plugins.metadata.nlm30.citationOutput.displayName">Tjenester for å sende ut referanser</message>
+	<message key="plugins.metadata.nlm30.citationOutput.description">Konverter NLM 3.0 markering av referanseelement til en eksportstandard i ren tekst</message>
+	<message key="plugins.metadata.nlm30Xml.citationOutput.displayName">﻿Tjenester for å sende ut referanser (XML)</message>
+	<message key="plugins.metadata.nlm30Xml.citationOutput.description">Konverter NLM 3.0 markering av referanseelement til en eksportstandard for XML-referanse</message>
+	<message key="plugins.metadata.nlm30.nlm30XmlOutput.displayName">NLM 3.0 tidsskriftspubliseringseksport</message>
+	<message key="plugins.metadata.nlm30.nlm30XmlOutput.description">Konverter en innlevering til NLM 3.0</message>
+	<message key="plugins.metadata.nlm30.nlm23XmlOutput.displayName">NLM 2.3 tidsskriftpubliseringseksport</message>
+	<message key="plugins.metadata.nlm30.nlm23XmlOutput.description">Konverter en innlevering til NLM 2.3</message>
+	<message key="plugins.metadata.nlm30.nlm30ToNlm23Xml.displayName">Nedgrader fra NLM 3.0 til 2.3 tidsskriftpublisering</message>
+	<message key="plugins.metadata.nlm30.nlm30ToNlm23Xml.description">﻿﻿Nedgraderer fra NLM 3.0 til 2.3 tidsskriftpublisering</message>
+	<message key="plugins.metadata.nlm30.refList.displayName">Generer referanseliste i ren tekst</message>
+	<message key="plugins.metadata.nlm30.refList.description">Generer en formattert referanseliste i ren tekst fra en referansene i en innlevering til OJS/OCS/OMP</message>
+	<message key="plugins.metadata.nlm30.displayName">NLM 3.0</message>
+</locale>

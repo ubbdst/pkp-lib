@@ -12,6 +12,6 @@
   -->
 
 <locale name="nb_NO" full_name="Norsk Bokmål">
-	<message key="plugins.metadata.dc11.displayName">Dublin Core 1.1.</message>
-	<message key="plugins.metadata.dc11.description">Dette programtillegget bidrar til Dublin Core versjon 1.1-skjema og applikasjonsadaptere</message>
+	<message key="plugins.citationLookup.pubmed.displayName">PubMed</message>
+	<message key="plugins.citationLookup.pubmed.description">Dette programtillegget kobler opp mot PubMeds bibliografiske database</message>
 </locale>

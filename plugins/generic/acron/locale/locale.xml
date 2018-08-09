@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.generic.acron.name">Acron</message>
+	<message key="plugins.generic.acron.description">Dette programtillegget reduserer avhengigheten av periodiske planleggingsverktøy, som «cron»</message>
+	<message key="plugins.generic.acron.enabled">Programtillegget Acron er slått på</message>
+	<message key="plugins.generic.acron.disabled">Programtillegget Acron er slått av</message>
+	<message key="plugins.generic.acron.reloadedCronTab">Cron-fanen ble lastet på nytt</message>
+	<message key="plugins.generic.acron.reload">Last opp planlagte oppgaver på nytt</message>
+	<message key="plugins.generic.acron.tasksReloaded">Planlagte oppgaver lastet opp på nytt</message>
+</locale>

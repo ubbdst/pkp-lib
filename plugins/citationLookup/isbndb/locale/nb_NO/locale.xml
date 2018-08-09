@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.citationLookup.isbndb.displayName">ISBNdb</message>
+	<message key="plugins.citationLookup.isbndb.description">Dette programtillegget kobler opp mot ISBNdbs bibliografiske database</message>
+	<message key="plugins.citationLookup.isbndbExtraction.displayName">ISBNs tjeneste for uthenting</message>
+	<message key="plugins.citationLookup.isbndbExtraction.description">Finn en ISBN for et gitt referansebeskrivelse av et NLM 3.0 element</message>
+	<message key="plugins.citationLookup.isbndbLookup.displayName">ISBNs oppslagstjeneste</message>
+	<message key="plugins.citationLookup.isbndbLookup.description">Slå opp en full refereransebeskrivelse av et NLM 3.0-element for et gitt ISBN</message>
+</locale>

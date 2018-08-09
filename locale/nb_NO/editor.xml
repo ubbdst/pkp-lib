@@ -1,17 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
 
 <!--
-  * locale/nb_NO/editor.xml
+  * locale/nb_NO/locale.xml
   *
-  * Copyright (c) 2013-2018 Simon Fraser University
-  * Copyright (c) 2003-2018 John Willinsky
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
-  * Localization strings for the nb_NO (Norsk bokmål) locale.
-  *
+  * Localization strings.
   -->
 
-<locale name="nb_NO" full_name="Norsk bokmål">
-	<message key="editor.review.rateReviewer">Fagkonsulentrangering</message>
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="editor.submissionLibrary">Innleveringsbibliotek</message>
+	<message key="editor.review.notInitiated">Fagfelleurderingen har ikke startet</message>
+	<message key="editor.submission.copyediting.personalMessageToUser">Melding til bruker</message>
+	<message key="editor.submission.externalReviewDescription">Velg filer under for å sende dem til fagfellevurdering</message>
+	<message key="editor.submission.fileAuditor.form.fileRequired">Du må velge minst en fil for at brukeren kan utføre oppgaven</message>
+	<message key="editor.submission.fileAuditor.form.messageRequired">Du må inkludere en personlig melding til brukeren</message>
+	<message key="editor.submission.fileAuditor.skipEmail">Ikke send melding til sluttkontrollør</message>
+	<message key="editor.submission.fileAuditor.form.userRequired">Du må velge en bruker til oppgaven</message>
+	<message key="editor.submission.uploadSelectFiles">Last opp/velg filer</message>
+	<message key="editor.submission.selectFiles">Velg filer</message>
+	<message key="editor.submission.revisions">Revideringer</message>
+	<message key="editor.submission.review.reviewersDescription"><![CDATA[Bruk <em>+«Legg til fagfelle»</em> til å invitere lesere til å vurdere de innsendte filene. Notatbokikonet viser at en fagfellevurdering er sendt inn. Det merkes <em>«Bekreftet»</em> etter at fagfellevurderingen er lest. Dersom fagfellevurderingen er forsinket, vil et ikon med en rød konvolutt minne fagfellen om vurderingen.]]></message>
+	<message key="editor.submission.addReviewer">Legg til fagfelle</message>
+	<message key="editor.submission.findAndSelectReviewer">Finn en fagfelle</message>
+	<message key="editor.submission.findAndSelectUser">Finn en bruker</message>
+	<message key="editor.submission.fileList.includeAllStages">Vis filer fra alle tilgjengelige stadier i prosessen</message>
+	<message key="editor.submission.review.currentFiles">Filer til fagfellevurdering i denne runden {$round}</message>
+	<message key="editor.submission.backToSearch">Tilbake til søk</message>
+	<message key="editor.review.createReviewer">Opprett ny fagfelle</message>
+	<message key="editor.review.enrollReviewer.short">Legg til eksisterende bruker</message>
+	<message key="editor.review.unassignReviewer">Fjern fagfelle</message>
+	<message key="editor.submissionReview.reviewType">Type vurdering</message>
+	<message key="editor.submissionReview.skipEmail">Ikke send e-post til forfatter</message>
+	<message key="editor.submissionReview.open">Åpen</message>
+	<message key="editor.submissionReview.blind">Blind</message>
+	<message key="editor.submissionReview.doubleBlind">Dobbelt blind</message>
+	<message key="editor.submissionReview.restrictFiles">Filer til fagfellevurdering</message>
+	<message key="editor.submissionReview.restrictFiles.hide">Lukk filvalg</message>
+	<message key="editor.submissionReview.editReview">Revider fagfellevurderingen</message>
+	<message key="editor.review.personalMessageToReviewer">E-post til fagfellen</message>
+	<message key="editor.review.importantDates">Viktige datoer</message>
+	<message key="editor.review.uploadRevision">Last opp revidering</message>
+	<message key="editor.review.NotifyAuthorAccept">Informer forfatteren om at manuskriptet har blitt antatt</message>
+	<message key="editor.review.NotifyAuthorDecline">Informer forfatteren om at manuskriptet ikke har blitt antatt</message>
+	<message key="editor.review.NotifyAuthorRevisions">Be forfatteren om å revidere manuskriptet</message>
+	<message key="editor.review.NotifyAuthorResubmit">Be forfatteren gjøre en større revidering av manuskriptet. Ny fagfellevurdering vil bli utført.</message>
+	<message key="editor.review.NotifyAuthorExternal">Informer forfatteren om at manuskriptet vil bli sendt til fagfellevurdering</message>
+	<message key="editor.review.personalMessageToAuthor">E-post til forfatteren</message>
+	<message key="editor.review.dateAccepted">Dato fagfellevurderingen ble mottatt</message>
+	<message key="editor.review.noReviews">Ingen fagfellevurdering å importere</message>
+	<message key="editor.review.reminder">Påminnelse om fagfellevurdering</message>
+	<message key="editor.review.thankReviewer">Takk fagfelle</message>
+	<message key="editor.review.reminderError">Feil ved sending av påminnelse om fagfellevurdering</message>
+	<message key="editor.review.thankReviewerError">Feil ved sending av takk til fagfelle</message>
+	<message key="editor.review.skipEmail">Ikke send e-post til fagfelle</message>
+	<message key="editor.review.sendReminder">Send påminnelse</message>
+	<message key="editor.review.readReview">Les fagfellevurdering</message>
+	<message key="editor.review.readNewReview">Les ny fagfellevurdering</message>
+	<message key="editor.review.responseDue">Frist for tilbakemelding: {$date}</message>
+	<message key="editor.review.requestSent">Forespørsel sendt</message>
+	<message key="editor.review.requestAccepted">Forespørsel akseptert</message>
+	<message key="editor.review.revertDecision">Gjør om avgjørelsen</message>
+	<message key="editor.review.reviewDue">Frist for fagfellevurdering: {$date}</message>
+	<message key="editor.review.reviewDueDate">Frist for fagfellevurdering</message>
+	<message key="editor.review.reviewCompleted">Fagfellevurdering gjennomført</message>
+	<message key="editor.review.reviewConfirmed">Fagfellevurdering bekreftet</message>
+	<message key="editor.review.reviewSubmitted">Fagfellevurdering levert inn</message>
+	<message key="editor.review.reviewerComments">Fagfellens kommentarer</message>
+	<message key="editor.review.days">Gjennomsnittlig antall dager</message>
+	<message key="editor.review.mustSelect">Du må velge en fagfelle</message>
+	<message key="editor.review.errorAddingReviewer">Det skjedde en feil da du forsøkte å legge til en fagfelle. Prøv igjen.</message>
+	<message key="editor.review.errorDeletingReviewer">Det skjedde en feil da du forsøkte å fjerne en fagfelle. Prøv igjen.</message>
+	<message key="editor.review.userGroupSelect">Legg til brukeren til fagfellegruppen</message>
+	<message key="editor.review.unconsiderReviewText">Vil du markere at fagfellevurderingen ikke er tatt med? Fagfellehistorikken blir beholdt.</message>
+	<message key="editor.review.unconsiderReview">Ikke ta med fagfellevurderingen</message>
+	<message key="editor.review.readConfirmation">Klikk «Bekreft» etter at du har lest fagfellevurderingen slik at prosessen kan fortsette. Dersom fagfellen har levert inn vurderingen et annet sted, kan du laste opp filen under og så klikk «Bekreft» for å fortsette.</message>
+	<message key="editor.submission.selectCopyedingFiles">Filer til språkvask</message>
+	<message key="editor.submission.selectReviewer">Velg fagfelle</message>
+	<message key="editor.submission.taskDueDate">Frist</message>
+	<message key="editor.submission.taskSchedule">Planlagte oppgaver</message>
+	<message key="editor.review.enrollReviewer">Legg til en eksisterende bruker som fagfelle</message>
+	<message key="editor.submission.noAuditRequested">Ingen forespørsel om sluttkontroll av denne filen</message>
+	<message key="editor.submission.personalMessageToUser">E-post til bruker</message>
+	<message key="editor.submission.proof.reminder">Påminnelse om siste korrektur</message>
+	<message key="editor.submission.editorial.approveCopyeditDescription">Den språkvaskede filen må bli godkjent før den kan bli sendt til produksjonsfasen. Vil du godkjenne filen?</message>
+	<message key="editor.submission.editorial.disapproveCopyeditDescription">Om du ikke godkjenner den språkvaskede filen vil den ikke kunne sendes til produksjonsfasen. Vil du underkjenne filen?</message>
+	<message key="editor.submission.addAuditor">Oppnevn sluttkontrollør</message>
+	<message key="editor.review">Fagfellevurdering</message>
+	<message key="editor.review.reviewDetails">Detaljer vedr. fagfellevurdering</message>
+	<message key="editor.review.noReviewFilesUploaded">Ingen filer er lastet opp</message>
+	<message key="editor.review.noReviewFilesUploaded.details">Du har ikke lastet opp noen filer</message>
+	<message key="editor.review.emailReviewer">E-post til fagfelle</message>
+	<message key="editor.submission.production.productionReadyFiles">Filer klare til produksjon</message>
+	<message key="editor.submission.newRound">Ny runde med fagfellevurdering</message>
+	<message key="editor.submissionReview.recordDecision">Registrer redaksjonens avgjørelse</message>
+	<message key="editor.submission.newRoundDescription">Du er i ferd med å opprette ny fagfellevurdering. Filer som ikke har vært brukt i andre vurderingsrunder er listet nedenfor.</message>
+	<message key="editor.submission.createNewRound">Opprett ny fagfellevurdering</message>
+	<message key="editor.article.reviewForms">Vurderingsskjema</message>
+	<message key="editor.article.selectReviewForm">Velg vurderingsskjema</message>
+	<message key="editor.article.clearReviewForm">Tøm vurderingsskjema</message>
+	<message key="editor.article.confirmChangeReviewForm">Advarsel: Er du sikker på at du vil fortsette? Når du forandrer vurderingsskjemaet, vil det påvirke svarene andre har gitt i dette skjemaet.</message>
+	<message key="editor.submission.noReviewerFilesSelected">Ingen filer er valgt</message>
+	<message key="editor.submission.noReviewerFilesSelected.details">Du har ikke valgt noen filer for fagfellevurderingen</message>
+	<message key="submission.queries.subjectRequired">Du må legge inn et tema for diskusjonen</message>
+	<message key="submission.queries.messageRequired">Du må legge inn en melding om diskusjonen</message>
+	<message key="submission.queries.attachedFiles">Legg ved filer</message>
+	<message key="grid.action.editQuery">Rediger diskusjonen</message>
+	<message key="editor.submission.query.manageQueryNoteFilesDescription">Velg filer fra listen nedenfor om du vil legge noe til diskusjonen</message>
+	<message key="editor.submission.selectedReviewer">Valgt fagfelle</message>
+	<message key="editor.submission.proofreading.approveProof">Godkjenn korrektur</message>
+	<message key="editor.submission.proofreading.revokeProofApproval">Opphev godkjenning av korrektur</message>
+	<message key="editor.submission.proofreading.confirmCompletion">Godkjenn siste korrektur for å vise at korrekturen er ferdig og at filen er klar for publisering</message>
+	<message key="editor.submission.proofreading.confirmRemoveCompletion">Opphev godkjenningen av siste korrektur for å vise at korrekturen ikke lenger er komplett og at filen ikke er klar for publisering</message>
+	<message key="editor.publicIdentificationExistsForTheSameType">Denne offentlige identifikatoren {$publicIdentifier} finnes allerede for et element av samme type. Velg unike identifikatorer for samme type elementer i tidsskriftet ditt.</message>
+	<message key="editor.publicIdentificationNumericNotAllowed">Den offentlige identifikatoren {$publicIdentifier} kan ikke være et nummer</message>
+	<message key="editor.publicIdentificationPatternNotAllowed">Dette mønsteret {$pattern} er ikke tillatt for en offentlig identifikator</message>
+	<message key="editor.submission.copyedit.manageCopyeditFilesDescription">Du kan legge flere filer til listen over filer til språkvask, uansett hvilken fase filen er i. Kryss av «Inkluder» i boksen under og klikk «Søk». Alle tilgjengelige filer vil bli listet og kan legges til. Ytterligere filer som ikke allerede er lastet opp kan bli lagt til listen ved å klikke på lenken «Last opp fil».</message>
+	<message key="editor.submissionReview.sendEmail">Send en beskjed via e-post til forfatter(ne): {$authorName}</message>
+	<message key="editor.submissionReview.recordRecommendation">Registrer redaksjonell anbefaling</message>
+	<message key="editor.submissionReview.recordRecommendation.notifyEditors">Gi beskjed til redaktørene</message>
+	<message key="editor.submissionReview.recordRecommendation.skipEmail">Ikke send e-post til redaktørene</message>
+	<message key="editor.submissionReview.recordRecommendation.createDiscussion">Opprett en diskusjon denne anbefalingen</message>
+	<message key="editor.submissionReview.recordRecommendation.skipDiscussion">Ikke opprett en diskusjon om anbefalingen</message>
+	<message key="editor.submissionReview.sendEmail.editors">Send en beskjed via e-post til redaktøren(e): {$editorNames}</message>
+	<message key="editor.review.newReviewRound">Be om ny runde fagfellevurdering</message>
+	<message key="editor.review.reviewsAdded">Fagfellevurdering lagt til beskjed</message>
+	<message key=""><![CDATA[]]></message>
+	<message key=""><![CDATA[]]></message>
+	<message key=""><![CDATA[]]></message>
+	<message key=""><![CDATA[]]></message>
+	<message key=""><![CDATA[]]></message>
+	<message key=""><![CDATA[]]></message>
+	<message key=""><![CDATA[]]></message>
 </locale>

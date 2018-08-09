@@ -12,6 +12,6 @@
   -->
 
 <locale name="nb_NO" full_name="Norsk Bokmål">
-	<message key="plugins.metadata.dc11.displayName">Dublin Core 1.1.</message>
-	<message key="plugins.metadata.dc11.description">Dette programtillegget bidrar til Dublin Core versjon 1.1-skjema og applikasjonsadaptere</message>
+	<message key="plugins.metadata.openurl10.displayName">OpenURL 1.0 metadata</message>
+	<message key="plugins.metadata.openurl10.description">Dette programtillegget bidrar til OpenURL 1.0 skjema og applikasjonadaptere</message>
 </locale>

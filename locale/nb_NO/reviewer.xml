@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
 
 <!--
   * locale/nb_NO/locale.xml
   *
-  * Copyright (c) 2014-2018 Simon Fraser University
-  * Copyright (c) 2003-2018 John Willinsky
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings.
   -->
 
 <locale name="nb_NO" full_name="Norsk Bokmål">
-	<message key="reviewer.reviewSteps.request">1. Forespørsel</message>
-	<message key="reviewer.reviewSteps.guidelines">2. Retningslinjer</message>
-	<message key="reviewer.reviewSteps.download">3. Last ned og vurder</message>
-	<message key="reviewer.reviewSteps.completion">4. Fullføring</message>
+	<message key="reviewer.reviewSteps.request">Trinn 1: Forespørsel</message>
+	<message key="reviewer.reviewSteps.guidelines">Trinn 2: Retningslinjer</message>
+	<message key="reviewer.reviewSteps.download">Trinn 3: Last ned og vurder</message>
+	<message key="reviewer.reviewSteps.completion">Trinn 4: Fullfør</message>
 	<message key="reviewer.step1.request">Forespørsel om fagfellevurdering</message>
-	<message key="reviewer.step1.requestBoilerplate">Du har blitt vurdert som en potensiell fagfellevurderer av følgende publikasjon. Nedenfor finner du en oversikt over innlevert materiale og en tidsplan for gjennomføring av vurderingen. Vi håper du har mulighet til å påta deg vurderingen.</message>
-	<message key="reviewer.step1.viewAllDetails">Se alle innleveringsdetaljer</message>
-	<message key="reviewer.submission.reviewerFiles">Filer for fagfellevurdering</message>
-	<message key="reviewer.submission.declineReview">Avvis forespørsel om fagfellevurdering</message>
-	<message key="reviewer.submission.declineReviewMessage">I feltet under kan du informere redaktøren om eventuelle grunner for avslaget av fagfellevurderingen.</message>
-	<message key="reviewer.submission.acceptReview">Godta fagfellevurdering, fortsett til steg #2.</message>
-	<message key="reviewer.submission.continueToStepThree">Fortsett til steg #3</message>
+	<message key="reviewer.step1.requestBoilerplate">Du har blitt pekt ut som en potensiell fagfelle av denne innleveringen. Under ser du en oversikt over innleveringen, samt arbeidsflyt for fagfellevurderingen. Vi håper du har anledning til å delta.</message>
+	<message key="reviewer.step1.viewAllDetails">Se detaljer om innleveringen</message>
+	<message key="reviewer.submission.reviewerFiles">Fagfellens filer</message>
+	<message key="reviewer.submission.declineReview">Avslå forespørsel om fagfellevurdering</message>
+	<message key="reviewer.submission.declineReviewMessage">Du kan oppgi grunnen til at du avslår forespørselen i feltet under.</message>
+	<message key="reviewer.submission.acceptReview">Aksepter forespørselen. Gå til Trinn 2.</message>
+	<message key="reviewer.submission.continueToStepThree">Gå til Trinn 3</message>
 	<message key="reviewer.submission.submitReview">Send inn fagfellevurdering</message>
-	<message key="reviewer.submission.reviewerGuidelines">Retningslinjer for fagfellevurdering</message>
-	<message key="reviewer.submission.enterCompetingInterests">Utgiveren har retningslinjer for åpenhet rundt potensielt konkurrerende interesser fra sine fagfellevurderere. Vennligst se igjennom disse retningslinjene.</message>
-	<message key="reviewer.submission.noCompetingInterests">Jeg har ingen konkurrerende interesser</message>
-	<message key="reviewer.submission.hasCompetingInterests">Jeg har mulige konkurrerende interesser (spesifiser under)</message>
-	<message key="reviewer.submission.competingInterests">Konkurrerende interesser</message>
+	<message key="reviewer.submission.reviewerGuidelines">Retningslinjer for fagfellevurderingen</message>
+	<message key="reviewer.submission.enterCompetingInterests">Utgiverens retningslinjer krever at fagfeller er åpne om eventuelle interessekonflikter. Se gjennom disse retningslinjene.</message>
+	<message key="reviewer.submission.noCompetingInterests">Jeg har ingen interessekonflikter</message>
+	<message key="reviewer.submission.hasCompetingInterests">Jeg kan ha interessekonflikter (spesifiser under)</message>
+	<message key="reviewer.submission.competingInterests">Interessekonflikter</message>
 	<message key="reviewer.submission.guidelines">Retningslinjer for fagfellevurdering</message>
-	<message key="reviewer.submission.noGuidelines">Utgiveren har ikke laget noen retningslinjer for fagfellevurdering</message>
-	<message key="reviewer.submission.downloadDescription">Klikk p¨å filnavnene under for å laste ned filene som hører til innleveringen</message>
-	<message key="reviewer.submission.reviewDescription">Skriv inn (eller lim inn) din vurdering av denne innleveringen i skjemaet under.</message>
-	<message key="reviewer.submission.uploadDescription">Last opp filene du ønsker at redaktør og/eller forfatter skal se, inkludert reviderte versjoner av originalfilen(e).</message>
+	<message key="reviewer.submission.noGuidelines">Utgiveren har ikke satt opp retningslinjer for fagfellene</message>
+	<message key="reviewer.submission.downloadDescription">Klikk på filnavnene under for å laste ned filene knyttet til denne innleveringen</message>
+	<message key="reviewer.submission.reviewDescription">Skriv (eller lim) inn fagfellevurderingen i skjemaet under</message>
+	<message key="reviewer.submission.uploadDescription">Last opp filer du vil at redaktør og/eller forfatter skal konsultere, inkludert reviderte versjoner av filer med opprinnelig fagfellevurdering.</message>
 	<message key="reviewer.complete">Fagfellevurdering sendt inn</message>
-	<message key="reviewer.confirmSubmit">Er du sikker på at du ønsker å sende inn denne fagfellevurderingen?</message>
-	<message key="reviewer.complete.whatNext">Takk for at du fullførte fagfellevurderingen, innleveringen var vellykket. Vi setter stor pris på ditt bidrag til å opprettholde kvaliteten i vår publikasjon. Redaktøren tar kontakt dersom mer informasjon eller avklaring er nødvendig.</message>
-	<message key="reviewer.aboutDueDates">Om tidsfrister</message>
-	<message key="reviewer.aboutDueDates.text">Redaktøren ber deg om å enten akseptere eller avvise fagfellevurderingen innen tidsfristen for besvaring av forespørsel om fagfellevurdering, og levere den ferdige fagfellevurderingen innen tidssfristen for fullføring av fagfellevurdering.</message>
-	<message key="submission.comments.canShareWithAuthor">Til forfatter og redaktør</message>
-	<message key="submission.comments.cannotShareWithAuthor">Kun til redaktør</message>
+	<message key="reviewer.confirmSubmit">Er du sikker på at du vil sende inn fagfellevurderingen?</message>
+	<message key="reviewer.complete.whatNext">Takk for at du fullførte fagfellevurderingen av denne innleveringen. Vurderingen din ble sendt inn. Vi takker for at du bidrar til å sikre kvaliteten på det vi publiserer. Om nødvendig, vil redaktøren kontakte deg for mer informasjon.</message>
+	<message key="reviewer.aboutDueDates">Om frister</message>
+	<message key="reviewer.aboutDueDates.text">Redaktøren ber om at du enten aksepterer eller avviser forespørselsen innen svarfristen, og at du fullfører fagfellevurderingen innen fristen for fagfellevurdering.</message>
+	<message key="submission.comments.canShareWithAuthor">For forfatter og redaktør</message>
+	<message key="submission.comments.cannotShareWithAuthor">For kun redaktør</message>
+	<message key="user.authorization.submissionReviewer">Denne brukeren er ikke satt opp som fagfelle for det forespurte dokumentet</message>
 </locale>

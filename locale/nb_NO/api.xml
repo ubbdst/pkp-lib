@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="api.submissions.403.csrfTokenFailure">Du kan ikke gjøre dette. Grunnen kan være at innloggingen din har løpt ut. Forsøk å gjenoppfriske skjermbildet før du prøver igjen.</message>
+	<message key="api.submissions.403.requestedOthersUnpublishedSubmissions">Du kan bare se upubliserte innleveringer som du har blitt tildelt</message>
+	<message key="api.submissions.403.deleteSubmissionOutOfContext">Du kan ikke slette en innlevering som ikke er tildelt denne konteksten</message>
+	<message key="api.submissions.403.unauthorizedDeleteSubmission">Du har ikke tillatelse til å slette denne innleveringen</message>
+	<message key="api.submissions.404.resourceNotFound">Ressursen ble ikke funnet</message>
+	<message key="api.submissions.400.missingRequired">Forespørselen kunne ikke besvares fordi den manglet nødvendig informasjon</message>
+	<message key="api.submissions.400.invalidIssueIdentifiers">Den forespurte årgangen, nummeret og året er ikke gyldig</message>
+	<message key="api.submissions.unknownError">Det oppsto en feil. Gjenoppfrisk skjermbildet og forsøk igjen</message>
+</locale>

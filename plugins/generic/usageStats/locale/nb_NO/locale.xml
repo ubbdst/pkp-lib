@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nb_NO/locale.xml
+  *
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nb_NO" full_name="Norsk Bokmål">
+	<message key="plugins.generic.usageStats.settings.logging">Gå inn i loggføringsvalgene</message>
+	<message key="plugins.generic.usageStats.settings.createLogFiles">Lag loggfiler</message>
+	<message key="plugins.generic.usageStats.settings.saved">Programtillegg for brukerstatistikk lagret</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption">Valgmuligheter for personvern</message>
+	<message key="plugins.generic.usageStats.openFileFailed">Filen {$file} kunne ikke åpnes og ble avvist.</message>
+	<message key="plugins.generic.usageStats.invalidLogEntry">Linjenummeret {$lineNumber} fra filen {$file} er ikke en gyldig loggføring. Filen ble derfor avvist.</message>
+	<message key="plugins.generic.usageStats.removeUrlError">Linjenummeret {$lineNumber} fra filen {$file} inneholder en URL som systemet ikke kan fjerne base-URL fra.</message>
+	<message key="plugins.generic.usageStats.loadDataError">Kunne ikke laste data hentet fra filen {$file}. Filen har blitt flyttet til stadie igjen.</message>
+	<message key="plugins.generic.usageStats.settings.createLogFiles.description">Aktiverer du dette alternativet, vil programtillegget lage filer som loggfører tilganger til mappen med filer. Disse filene bør brukes til å hente ut brukerstatistikk. Dersom du ikke vil lage slike filer, kan du velge bort alternativet og bruke dine egne filer med loggføring av tilganger.</message>
+	<message key="plugins.generic.usageStats.settings.logParseRegex">Parsering av regex-loggfiler</message>
+	<message key="plugins.generic.usageStats.settings.logParseRegex.description">Regex-standarden som er brukt kan brukes til parsering av  loggfiler av apache-tilgang i et kombinert format og desssuten programtilleggets loggfiler. Dersom filene med tilgangslogger er i et annet format, må du legge inn en regex som kan brukes til parsering og gi dem de forventede verdiene. Du finner mer informasjon her: UsageStatsLoader::_getDataFromLogEntry()</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath">Filsti for anonymiseringssalt</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.saltFilepath.invalid">Saltffilen kan ikke overskrives</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.requirements">For å sikre personvernet, må du spesifisere en fil som kan leses og overskrives og som kan holde en tilfeldig generert saltverdi. For å sikre personvernet, kan du IKKE lage en sikkerhetskopi av filen. Saltet er tilfeldig generert ved å bruke enten funksjonen mcrypt_create_iv, som krever PHP mcrypt; funksjonen openssl_random_pseudo_bytes, som krever PHP openssl; filen /dev/urandom, som fungerer kun på *nix-systemer; eller funksjonen mt_rand, som ikke er kryptografisk sikker. Derfor: om du bruker en Windowsserver, pass på at du installerer enten the PHP mcrypt eller openssl aktivert for å ha en salt som er generert kryptografisk sikkert.</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.description">Aktiver dette alternativet for å bruke en versjon av programtillegget som følger personvernreglene. Den må logge hashede IP-adresser, informere brukere om sporingen og gi dem mulighet til å velge det bort. Merk: om du velger dette, vil du ikke kunne bruke lokaliseringsegenskapene i programtillegget.</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.requiresSalt">Du må ha en salt-fil for å aktivere personvernet</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.excludesCity">Aktiverer du personvernet, fjerner du «By» som en valgfri statistikk.</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyOption.excludesRegion">Aktiverer du personvernet, fjerner du «Region» som en valgfri statistikk.</message>
+	<message key="plugins.generic.usageStats.settings.dataPrivacyCheckbox">Respekter personvern</message>
+	<message key="plugins.generic.usageStats.settings.optionalColumns">Valgfri statistisk informasjon</message>
+	<message key="plugins.generic.usageStats.settings.optionalColumns.description">IKKE ENDRE med mindre du forstår hva du gjør. Aktiver eller deaktiver samlingen av den følgende valgfrie informasjonen. Dette vil påvirke de mulige statistikkrapportene du kan hente. Det vil også påvirke størrelsen på databasen.</message>
+	<message key="plugins.generic.usageStats.settings.optionalColumns.cityRequiresRegion">Kolonnen «By» krever kolonnen «Region».</message>
+	<message key="plugins.generic.usageStats.settings.archives">Arkiv</message>
+	<message key="plugins.generic.usageStats.settings.compressArchives.description">Aktiver dette alternativet for å komprimere arkiverte loggfiler ved å bruke gzop-verktøy (du vil måtte konfigurere gzip-innstillingen inne i config.inc.php). Dersom du har et nettsted med stor trafikk, er det en god ide å aktivere dette så du kan spare plass.</message>
+	<message key="plugins.generic.usageStats.settings.compressArchives">Komprimer arkivene</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions">Mulige statistikkvisninger</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.display">Vis leseren statistikk over innleveringen</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.chartType">Velg denne diagramtypen for å vise statistikk over nedlastinger</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.chartType.bar">Stolpe</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.chartType.line">Linje</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.datasetMaxCount">Definer det høyeste antall data som kan vises på samme tid, for et spesifikt punkt på x-aksen. En høyere vedi kan generere diagrammer som er vanskelige å forstå. Et sted mellom tre og fem er trygt.</message>
+	<message key="plugins.generic.usageStats.usageStatsLoaderName">Fillaster for brukerstatistikk</message>
+	<message key="plugins.generic.usageStats.pluginNotEnabled">Programtillegget for brukerstatistikk er skrudd av. Ingen filer er behandlet.</message>
+	<message key="plugins.generic.usageStats.processingPathNotEmpty">Mappen {$directory} er ikke tom. Det kan bety at en tidligere prosess mislyktes eller at det er en prosess som går samtidig. Denne filen vil bli automatisk behandlet på nytt om du også bruker scheduledTasksAutoStage.xml. Ellers vil du måtte manuelt flytte ev. løse filer behandlingsmappen tilbake til stadiemappen.</message>
+	<message key="plugins.generic.usageStats.displayName">Brukerstatistikk</message>
+	<message key="plugins.generic.usageStats.description">Dette programtillegget viser statistikk over bruk av dataelementer. Du kan hente ut statistikk via filene med loggene over tilgang til serveren.</message>
+	<message key="plugins.reports.usageStats.report.displayName">PKP-bruk</message>
+	<message key="plugins.reports.usageStats.report.description">Dette programtillegget viser standard statistikk over PKP-bruk (COUNTER-klar)</message>
+	<message key="plugins.reports.usageStats.optout.displayName">Informasjon om personvern ved brukerstatistikk</message>
+	<message key="plugins.reports.usageStats.optout.description">Informasjon om personvern ved brukerstatistikk</message>
+	<message key="plugins.generic.usageStats.optout.title">Informasjon om brukerstatistikk</message>
+	<message key="plugins.generic.usageStats.optout.shortDesc"><![CDATA[Vi logger brukerstatistikken anonymt. For mer informasjon, les: <a href={$privacyInfo}>«Informasjon om personvern»</a>]]></message>
+	<message key="plugins.reports.usageStats.metricType">PKP/COUNTER</message>
+	<message key="plugins.reports.usageStats.metricType.full">Statistikk: Public Knowledge Project (COUNTER-klar)</message>
+	<message key="plugins.generic.usageStats.statsSum">Summer alle filnedlastingene</message>
+	<message key="plugins.generic.usageStats.noStats">Nedlastingsdata er ikke tilgjengelig ennå</message>
+	<message key="plugins.generic.usageStats.monthInitials">Jan Feb Mar Apr Mai Jun Jul Aug Sep Okt Nov Des</message>
+	<message key="plugins.generic.usageStats.downloads">Nedlastinger</message>
+	<message key="plugins.generic.usageStats.noCounterBotList">COUNTER bot-listen {$botlist} kan ikke brukes. Det er et par grunner til dette. Sjekk om fillisten er i mappen lib/pkp/plugins/generic/usageStats/lib/counter. Sjekk også om denne mappetillatelsene og at det bare er en fil i den.</message>
+	<message key="plugins.generic.usageStats.settings.statsDisplayOptions.contextWide">Disse innstillingene vil bare bli brukt for brukerstatistikk for {$contextName}</message>
+	<message key="plugins.generic.usageStats.optout.done"><![CDATA[<p>Du valgte bort samling av brukerstatistikk. Du får se denne beskjeden, men det samles ingen statistikk over din bruk av denne siden. Klikk knappen under for å gjøre om valget.<p>]]></message>
+	<message key="plugins.generic.usageStats.optin">Velg</message>
+	<message key="plugins.generic.usageStats.optout">Velg bort</message>
+	<message key="plugins.generic.usageStats.optout.cookie"><![CDATA[<h3>Generell personvernsinformasjon</h3>
+        <p>Gå til vår <a href="{$privacyStatementUrl}">erklæring om personvern</a>.</p>
+        <h3>Brukerstatistikk</h3>
+        <p>For å kunne analyse bruken og innflytelsen av tidsskriftet og dets artikler, samler og loggfører vi adganger til tidsskriftets hjemmeside, utgaver, artikler, oppsett og supplerende filer. Alle data blir anonymisert. Ingen personlig informasjon blir loggført. IP-adresser blir anonymisert ved hashing (ved bruk av <em>SHA 256</em>) i kombinasjon med en <em>sikker 64 karakterer lang salt</em> som blir automatisk <em>tilfeldig generert og overstyrt daglig</em>. IP-adressene kan ikke rekonstrueres.</p>
+        <p>Følgende informasjon blir samlet sammen med de anonymiserte IP-adressene:</p>
+        <ul>
+        <li>Tilgangstype (f.eks. administrative)</li>
+        <li>Tidspunkt</li>
+        <li>Forespurt URL</li>
+        <li>HTTP statuskode</li>
+        <li>Nettleser</li>
+        </ul>
+        <p>Det samlede datamateriale er bare brukt for evaluering. Ingen IP-adresser er knyttet til brukeridentiteter. Det er teknisk umulig å spore et spesifikt datasett til en spesifikk IP-adresse.</p>]]></message>
+</locale>

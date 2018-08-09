@@ -1,36 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+<!DOCTYPE locale SYSTEM "../../../../lib/pkp/dtd/locale.dtd">
 
 <!--
   * locale/nb_NO/locale.xml
   *
-  * Copyright (c) 2014-2018 Simon Fraser University
-  * Copyright (c) 2003-2018 John Willinsky
+  * Copyright (c) 2014-2017 Simon Fraser University
+  * Copyright (c) 2003-2017 John Willinsky
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
   * Localization strings.
   -->
 
 <locale name="nb_NO" full_name="Norsk Bokmål">
-	<message key="default.groups.name.siteAdmin">Nettstedsadministrator</message>
-	<message key="default.groups.plural.siteAdmin">Nettstedsadministratorer</message>
+	<message key="default.groups.name.siteAdmin">Administrator</message>
+	<message key="default.groups.plural.siteAdmin">Administratorer</message>
 	<message key="default.groups.name.productionEditor">Produksjonsredaktør</message>
 	<message key="default.groups.plural.productionEditor">Produksjonsredaktører</message>
-	<message key="default.groups.abbrev.productionEditor">ProdR</message>
+	<message key="default.groups.abbrev.productionEditor">Prodred</message>
+	<message key="default.groups.name.copyeditor">Språkvasker</message>
+	<message key="default.groups.plural.copyeditor">Språkvaskere</message>
+	<message key="default.groups.abbrev.copyeditor">Sprv</message>
 	<message key="default.groups.name.proofreader">Korrekturleser</message>
-	<message key="default.groups.plural.proofreader">Korrekturleser</message>
-	<message key="default.groups.abbrev.proofreader">KL</message>
+	<message key="default.groups.plural.proofreader">Korrekturlesere</message>
+	<message key="default.groups.abbrev.proofreader">Korr</message>
 	<message key="default.groups.name.designer">Designer</message>
 	<message key="default.groups.plural.designer">Designere</message>
 	<message key="default.groups.abbrev.designer">Design</message>
 	<message key="default.groups.name.internalReviewer">Intern fagfelle</message>
 	<message key="default.groups.plural.internalReviewer">Interne fagfeller</message>
-	<message key="default.groups.abbrev.internalReviewer">IF</message>
-	<message key="default.groups.name.marketing">Markedsførings- og salgskoordinator</message>
-	<message key="default.groups.plural.marketing">Markedsførings- og salgskoordinatorer</message>
-	<message key="default.groups.abbrev.marketing">MS</message>
-	<message key="default.groups.name.funding">Finansieringskoordinator</message>
-	<message key="default.groups.plural.funding">Finansieringskoordinatorer</message>
-	<message key="default.groups.abbrev.funding">FK</message>
+	<message key="default.groups.abbrev.internalReviewer">Intff</message>
+	<message key="default.groups.name.marketing">Salgs- og markedsleder</message>
+	<message key="default.groups.plural.marketing">Salgs- og markedsledere</message>
+	<message key="default.groups.abbrev.marketing">Smled</message>
+	<message key="default.groups.name.funding">Innsamlingsleder</message>
+	<message key="default.groups.plural.funding">Innsamlingsledere</message>
+	<message key="default.groups.abbrev.funding">Insled</message>
 	<message key="default.groups.name.indexer">Indekserer</message>
+	<message key="default.groups.name.reader">Leser</message>
+	<message key="default.groups.plural.reader">Lesere</message>
+	<message key="default.groups.abbrev.reader">Les</message>
+	<message key="default.genres.other">Andre</message>
+	<message key="default.genres.multimedia">Multimedia</message>
+	<message key="default.genres.image">Bilde</message>
+	<message key="default.genres.styleSheet">HTML-stilark</message>
+	<message key="default.groups.name.translator">Oversetter</message>
+	<message key="default.groups.plural.translator">Oversettere</message>
+	<message key="default.groups.abbrev.translator">Overs</message>
+	<message key="default.groups.name.layoutEditor">Layoutredaktør</message>
+	<message key="default.groups.name.author">Forfatter</message>
+	<message key="default.groups.plural.author">Forfattere</message>
+	<message key="default.groups.abbrev.author">Forf</message>
+	<message key="default.groups.plural.layoutEditor">Layoutredaktører</message>
+	<message key="default.groups.abbrev.layoutEditor">Layred</message>
+	<message key="default.groups.plural.indexer">Indekserere</message>
+	<message key="default.groups.abbrev.indexer">IND</message>
 </locale>
