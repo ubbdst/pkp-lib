@@ -511,6 +511,7 @@
 	<message key="submission.query.lastReply">Siste svar</message>
 	<message key="submission.query.closed">Lukket</message>
 	<message key="submission.query.addNote">Legg til beskjed</message>
+	<message key="submission.query.participantTitle">{$fullName}, {$userGroup}</message>message>
 	<message key="submission.queries.production">Diskusjon av produksjon</message>
 	<message key="submission.query.subject">Tema</message>
 	<message key="submission.query.messages">Beskjeder</message>
@@ -522,7 +523,7 @@
 	<message key="submission.query.new.contents">Du har blitt lagt til diskusjonen «{$queryTitle}» om innleveringen «{$submissionTitle}».</message>
 	<message key="editor.submission.addStageParticipant.form.userRequired">Du må velge en bruker for denne brukergruppen</message>
 	<message key="editor.submission.decision">Avgjørelse</message>
-	<message key="editor.submission.decision.accept">Send til språkvask</message>
+	<message key="editor.submission.decision.accept">Aksepter innlevering</message>
 	<message key="editor.submission.decision.requestRevisions">Be om revidering</message>
 	<message key="editor.submission.decision.resubmit">Lever inn til ny fagfellevurdering</message>
 	<message key="editor.submission.decision.decline">Avvis innlevering</message>
